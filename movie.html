@@ -1,0 +1,180 @@
+<!DOCTYPE html><!--22061099 임우석-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: Arial;
+      padding: 10px;
+      background: #000;
+    }
+
+    .header {
+      padding: 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 50px;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+
+    .fakeing {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .card h5, h4, h3, h2, p {
+      color: white;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .row:after {
+      content:"";
+      display: table;
+      clear: both;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #000;
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+  </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Portfolio</h1>
+      <p>Lim Woosuk Portfolio</p>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Graphic</a>
+      <a href="#">Movie</a>
+      <a href="illust.html">Illustration</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Movie</h2>
+        </div>
+        <div class="card">
+          <h2>Guckkasten Stranger Motion Graphic</h2>
+          <h5>Oct 26, 2020</h5>
+          <p><video width="720" controls loop>
+          <source src="img/guck.webm" type="video/webm">
+          <source src="img/guck.ogg" type="video/ogg">
+          <source src="img/guck.mp4" type="video/mp4">
+          <p>Adobe After Effect, Adobe Illustrator</p>
+          <p>In a space frame-up TV,
+Showing the silhouette of the members of Guckkasten,
+going to use images to express the albums in the album.</p>
+        </div>
+        <div class="card">
+          <h2>Seoulstore Promotion video</h2>
+          <h5>Nov 11, 2020</h5>
+          <p><video width="720" controls loop>
+          <source src="img/seoul.webm" type="video/webm">
+          <source src="img/seoul.ogg" type="video/ogg">
+          <source src="img/seoul.mp4" type="video/mp4">
+          <p>Adobe After Effect, Adobe Illustrator</p>
+          <p>Unlike other shopping malls, it's not just simple clothes.
+We differentiated ourselves by selling beauty and life-tech products together.
+Because we collect and sell products from brand names.
+You can buy it cheaper than you can buy it on each site.
+It will feature features that differentiate itself from these other shopping malls through advertisements.</p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h3>About Me</h3>
+          <p><img src="img/me.jpg"></p>
+          <p>Lim Woosuk</p>
+          <p>KAYWON UNIVERSITY OF ART & DESIGN</br>Digital Media Design</p>
+        </div>
+        <div class="card">
+          <h3>Info</h3>
+          <p>Birth : 00.07.03</p>
+          <p>MBTI : INFP</p>
+          <p>Job : Graphic Designer</p>
+        </div>
+        <div class="card">
+          <h3>SNS</h3>
+          <p><a href="https://www.facebook.com/profile.php?id=100015883214760" target="_blank"><img src="img/face.png">&nbsp Facebook</a></p>
+          <p><a href="https://www.instagram.com/seokieeeeee/" target="_blank"><img src="img/insta.png">&nbsp Instagram</a></p>
+          <p><a href="https://www.behance.net/seokieeedc9f" target="_blank"><img src="img/be.png">&nbsp Behance</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p> Contact
+        </br>E-mail : seokieee@naver.com
+        </br>Phone : 010-6427-****
+      </p>
+
+    </div>
+  </body>
+</html>

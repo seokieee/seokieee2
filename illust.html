@@ -1,0 +1,168 @@
+<!DOCTYPE html><!--22061099 임우석-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: Arial;
+      padding: 10px;
+      background: #000;
+    }
+
+    .header {
+      padding: 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 50px;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+
+    .fakeing {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .card h5, h4, h3, h2, p {
+      color: white;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .row:after {
+      content:"";
+      display: table;
+      clear: both;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #000;
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+  </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Portfolio</h1>
+      <p>Lim Woosuk Portfolio</p>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Graphic</a>
+      <a href="movie.html">Movie</a>
+      <a href="#">Illustration</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Illustraion</h2>
+        </div>
+        <div class="card">
+          <h2>Imagine Dragons Poster Illustration</h2>
+          <h5>May 17, 2020</h5>
+          <p><img src="img/3.png"></p>
+          <p>Adobe Illustrator</p>
+          <p>Imagine Dragons Retro Poster Illustraion</p>
+        </div>
+        <div class="card">
+          <h2>Bauhaus Cardnews Illustraion</h2>
+          <h5>Oct 17, 2020</h5>
+          <p><img src="img/4.jpg"></p>
+          <p>Adobe Illustrator</p>
+          <p>Bauhaus Cardnews Illustraion</p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h3>About Me</h3>
+          <p><img src="img/me.jpg"></p>
+          <p>Lim Woosuk</p>
+          <p>KAYWON UNIVERSITY OF ART & DESIGN</br>Digital Media Design</p>
+        </div>
+        <div class="card">
+          <h3>Info</h3>
+          <p>Birth : 00.07.03</p>
+          <p>MBTI : INFP</p>
+          <p>Job : Graphic Designer</p>
+        </div>
+        <div class="card">
+          <h3>SNS</h3>
+          <p><a href="https://www.facebook.com/profile.php?id=100015883214760" target="_blank"><img src="img/face.png">&nbsp Facebook</a></p>
+          <p><a href="https://www.instagram.com/seokieeeeee/" target="_blank"><img src="img/insta.png">&nbsp Instagram</a></p>
+          <p><a href="https://www.behance.net/seokieeedc9f" target="_blank"><img src="img/be.png">&nbsp Behance</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p> Contact
+        </br>E-mail : seokieee@naver.com
+        </br>Phone : 010-6427-****
+      </p>
+
+    </div>
+  </body>
+</html>
